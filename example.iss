@@ -71,7 +71,7 @@ begin
   ShellExec('', 'CheckNetIsolation.exe', 'LoopbackExempt -a -n="Microsoft.Win32WebViewHost_cw5n1h2txyewy"','', SW_SHOW, ewWaitUntilTerminated, resultCode);
 end;
 
-//
+//write variable infos to demo.lic file after installation:
 procedure DemoLicense(dateString:String);
 var
   newDateVar: Integer;
